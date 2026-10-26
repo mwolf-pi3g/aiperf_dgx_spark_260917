@@ -1,0 +1,204 @@
+2026-09-13 01:40:07 - aiperf.plot.logging - INFO - Plot logging initialized with level: INFO
+2026-09-13 01:40:07 - aiperf.plot.logging - INFO - Log file: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/plots/aiperf_plot.log
+2026-09-13 01:40:07 - aiperf.plot.plot_controller - INFO - Server metrics downsampling: 5.0s windows, mean aggregation
+2026-09-13 01:40:07 - ModeDetector - INFO - Found 5 unique run directories
+2026-09-13 01:40:07 - ModeDetector - INFO - Detected MULTI_RUN mode: 5 run directories found
+2026-09-13 01:40:07 - aiperf.plot.plot_controller - INFO - Generating multi-run plots (5 runs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loading run from: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_1
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded aggregated data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_1/profile_export_aiperf.json
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-09-13 01:40:07 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-09-13 01:40:07 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded timeslice data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_1/profile_export_aiperf_timeslices.csv (5242 rows, 9 timeslices)
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted slice_duration: 10.0s
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 944 GPU telemetry records from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_1/gpu_telemetry_export.jsonl (1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 49 server metrics from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_1/server_metrics_export.json (2236 timeslice data points)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded server metrics from JSON (Parquet not available)
+2026-09-13 01:40:07 - DataLoader - INFO - Loading run from: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_16
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded aggregated data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_16/profile_export_aiperf.json
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-09-13 01:40:07 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-09-13 01:40:07 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded timeslice data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_16/profile_export_aiperf_timeslices.csv (2420 rows, 4 timeslices)
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted slice_duration: 10.0s
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 875 GPU telemetry records from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_16/gpu_telemetry_export.jsonl (1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 49 server metrics from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_16/server_metrics_export.json (2046 timeslice data points)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded server metrics from JSON (Parquet not available)
+2026-09-13 01:40:07 - DataLoader - INFO - Loading run from: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_2
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded aggregated data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_2/profile_export_aiperf.json
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-09-13 01:40:07 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-09-13 01:40:07 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded timeslice data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_2/profile_export_aiperf_timeslices.csv (4739 rows, 8 timeslices)
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted slice_duration: 10.0s
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 892 GPU telemetry records from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_2/gpu_telemetry_export.jsonl (1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 49 server metrics from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_2/server_metrics_export.json (2112 timeslice data points)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded server metrics from JSON (Parquet not available)
+2026-09-13 01:40:07 - DataLoader - INFO - Loading run from: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_4
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded aggregated data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_4/profile_export_aiperf.json
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-09-13 01:40:07 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-09-13 01:40:07 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded timeslice data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_4/profile_export_aiperf_timeslices.csv (3601 rows, 6 timeslices)
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted slice_duration: 10.0s
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 875 GPU telemetry records from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_4/gpu_telemetry_export.jsonl (1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 49 server metrics from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_4/server_metrics_export.json (2046 timeslice data points)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded server metrics from JSON (Parquet not available)
+2026-09-13 01:40:07 - DataLoader - INFO - Loading run from: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded aggregated data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/profile_export_aiperf.json
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-09-13 01:40:07 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-09-13 01:40:07 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded timeslice data from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/profile_export_aiperf_timeslices.csv (2420 rows, 4 timeslices)
+2026-09-13 01:40:07 - DataLoader - INFO - Extracted slice_duration: 10.0s
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 939 GPU telemetry records from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/gpu_telemetry_export.jsonl (1 GPUs)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded 49 server metrics from /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/server_metrics_export.json (2244 timeslice data points)
+2026-09-13 01:40:07 - DataLoader - INFO - Loaded server metrics from JSON (Parquet not available)
+2026-09-13 01:40:07 - DataLoader - INFO - Found 79 available metrics: ['active_decode_throughput', 'active_decode_throughput_per_user', 'active_prefill_throughput', 'active_prefill_throughput_per_user', 'active_total_throughput', 'benchmark_duration', 'credit_to_start_latency', 'decode_duration', 'e2e_output_token_throughput', 'effective_concurrency', 'effective_decode_concurrency', 'effective_decode_throughput', 'effective_decode_throughput_per_user', 'effective_latency', 'effective_prefill_concurrency', 'effective_prefill_throughput', 'effective_prefill_throughput_per_user', 'effective_total_throughput', 'http_req_blocked', 'http_req_chunks_received', 'http_req_chunks_sent', 'http_req_connecting', 'http_req_connection_overhead', 'http_req_connection_reused', 'http_req_data_received', 'http_req_data_sent', 'http_req_dns_lookup', 'http_req_duration', 'http_req_receiving', 'http_req_sending', 'http_req_total', 'http_req_waiting', 'input_sequence_length', 'input_token_throughput', 'inter_chunk_latency', 'inter_token_latency', 'nvidia_average_gpu_power', 'nvidia_energy_delay_product', 'nvidia_energy_per_output_token', 'nvidia_energy_per_request', 'nvidia_energy_per_total_token', 'nvidia_energy_per_user', 'nvidia_output_tokens_per_joule', 'nvidia_output_tps_per_watt', 'nvidia_performance_per_watt', 'nvidia_total_gpu_energy', 'nvidia_total_gpu_power', 'osl_mismatch_count', 'osl_mismatch_diff_pct', 'output_sequence_length', 'output_token_count', 'output_token_throughput', 'output_token_throughput_per_gpu', 'output_token_throughput_per_user', 'overall_usage_prompt_cache_read_pct', 'prefill_throughput_per_user', 'reasoning_token_count', 'request_count', 'request_latency', 'request_throughput', 'time_to_first_output_token', 'time_to_first_token', 'time_to_second_token', 'tokens_in_flight', 'total_isl', 'total_osl', 'total_output_tokens', 'total_reasoning_tokens', 'total_token_throughput', 'total_usage_completion_tokens', 'total_usage_prompt_cache_read_tokens', 'total_usage_prompt_tokens', 'total_usage_reasoning_tokens', 'total_usage_total_tokens', 'usage_completion_tokens', 'usage_prompt_cache_read_tokens', 'usage_prompt_tokens', 'usage_reasoning_tokens', 'usage_total_tokens']
+2026-09-13 01:40:07 - aiperf.plot.config - INFO - Classification disabled for plot 'pareto_curve_throughput_per_gpu_vs_latency': using groups=['model']
+2026-09-13 01:40:07 - aiperf.plot.config - INFO - Classification disabled for plot 'pareto_curve_throughput_per_gpu_vs_interactivity': using groups=['model']
+2026-09-13 01:40:07 - aiperf.plot.config - INFO - Classification disabled for plot 'ttft_vs_throughput': using groups=['model']
+2026-09-13 01:40:07 - aiperf.plot.config - INFO - Classification disabled for plot 'latency_throughput_uncertainty': using groups=['model']
+2026-09-13 01:40:07 - MultiRunPNGExporter - INFO - DataFrame has 5 unique experiment_groups: ['concurrency_1', 'concurrency_16', 'concurrency_2', 'concurrency_4', 'concurrency_8']
+2026-09-13 01:40:07 - MultiRunPNGExporter - INFO - DataFrame has 1 unique experiment_types: ['treatment']
+2026-09-13 01:40:07 - aiperf.plot.core.plot_generator - INFO - Preparing groups with group_by='model': found 1 unique values: ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:40:07 - aiperf.plot.core.plot_generator - INFO - Applied semantic coloring: 0 baselines, 1 treatments
+2026-09-13 01:40:07 - aiperf.plot.core.plot_generator - INFO -   Baselines: []
+2026-09-13 01:40:07 - aiperf.plot.core.plot_generator - INFO -   Treatments: ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:40:07 - aiperf.plot.core.plot_generator - INFO -   Color assignments: {'nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4': '#76B900'}
+2026-09-13 01:40:07 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-09-13 01:40:07 - choreographer.browsers.chromium - INFO - Found chromium path: /snap/chromium/3524/usr/lib/chromium-browser/chrome
+2026-09-13 01:40:07 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-6hk_yyb8.
+2026-09-13 01:40:07 - choreographer.browser_async - INFO - Opening browser.
+2026-09-13 01:40:07 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-ooj5xurr.
+2026-09-13 01:40:07 - choreographer.browsers.chromium - INFO - Temporary directory at: /home/mw/.choreographer-ooj5xurr
+2026-09-13 01:40:08 - kaleido.kaleido - INFO - Conforming 1 to file:///home/mw/.choreographer-6hk_yyb8/index.html
+2026-09-13 01:40:08 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-09-13 01:40:08 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-09-13 01:40:08 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-09-13 01:40:08 - kaleido.kaleido - INFO - Got 1FE5
+2026-09-13 01:40:08 - kaleido._kaleido_tab - INFO - Processing Pareto_Curve_Token_Throughput_per_GPU_vs_Latency.png
+2026-09-13 01:40:08 - kaleido._kaleido_tab - INFO - Sending big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Latency.png.
+2026-09-13 01:40:09 - kaleido._kaleido_tab - INFO - Sent big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Latency.png.
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Reloading tab 1FE5 before return.
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Putting tab 1FE5 back (queue size: 0).
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-09-13 01:40:09 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:09 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-13 01:40:09 - aiperf.plot.core.plot_generator - INFO - Preparing groups with group_by='model': found 1 unique values: ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:40:09 - aiperf.plot.core.plot_generator - INFO - Applied semantic coloring: 0 baselines, 1 treatments
+2026-09-13 01:40:09 - aiperf.plot.core.plot_generator - INFO -   Baselines: []
+2026-09-13 01:40:09 - aiperf.plot.core.plot_generator - INFO -   Treatments: ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:40:09 - aiperf.plot.core.plot_generator - INFO -   Color assignments: {'nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4': '#76B900'}
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:09 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-09-13 01:40:09 - choreographer.browsers.chromium - INFO - Found chromium path: /snap/chromium/3524/usr/lib/chromium-browser/chrome
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-5wzd9f_m.
+2026-09-13 01:40:09 - choreographer.browser_async - INFO - Opening browser.
+2026-09-13 01:40:09 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-2av_9zp2.
+2026-09-13 01:40:09 - choreographer.browsers.chromium - INFO - Temporary directory at: /home/mw/.choreographer-2av_9zp2
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Conforming 1 to file:///home/mw/.choreographer-5wzd9f_m/index.html
+2026-09-13 01:40:09 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Got AA94
+2026-09-13 01:40:10 - kaleido._kaleido_tab - INFO - Processing Pareto_Curve_Token_Throughput_per_GPU_vs_Interactivity.png
+2026-09-13 01:40:10 - kaleido._kaleido_tab - INFO - Sending big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Interactivity.png.
+2026-09-13 01:40:10 - kaleido._kaleido_tab - INFO - Sent big command for Pareto_Curve_Token_Throughput_per_GPU_vs_Interactivity.png.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Reloading tab AA94 before return.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Putting tab AA94 back (queue size: 0).
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-09-13 01:40:10 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:10 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-13 01:40:10 - aiperf.plot.core.plot_generator - INFO - Preparing groups with group_by='model': found 1 unique values: ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:40:10 - aiperf.plot.core.plot_generator - INFO - Applied semantic coloring: 0 baselines, 1 treatments
+2026-09-13 01:40:10 - aiperf.plot.core.plot_generator - INFO -   Baselines: []
+2026-09-13 01:40:10 - aiperf.plot.core.plot_generator - INFO -   Treatments: ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:40:10 - aiperf.plot.core.plot_generator - INFO -   Color assignments: {'nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4': '#76B900'}
+2026-09-13 01:40:10 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-09-13 01:40:10 - choreographer.browsers.chromium - INFO - Found chromium path: /snap/chromium/3524/usr/lib/chromium-browser/chrome
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-o_n0o1vk.
+2026-09-13 01:40:10 - choreographer.browser_async - INFO - Opening browser.
+2026-09-13 01:40:10 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-97tnyfql.
+2026-09-13 01:40:10 - choreographer.browsers.chromium - INFO - Temporary directory at: /home/mw/.choreographer-97tnyfql
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Conforming 1 to file:///home/mw/.choreographer-o_n0o1vk/index.html
+2026-09-13 01:40:10 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Got B7F9
+2026-09-13 01:40:11 - kaleido._kaleido_tab - INFO - Processing TTFT_vs_Throughput.png
+2026-09-13 01:40:11 - kaleido._kaleido_tab - INFO - Sending big command for TTFT_vs_Throughput.png.
+2026-09-13 01:40:11 - kaleido._kaleido_tab - INFO - Sent big command for TTFT_vs_Throughput.png.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Reloading tab B7F9 before return.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Putting tab B7F9 back (queue size: 0).
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-09-13 01:40:11 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:11 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:11 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-09-13 01:40:11 - choreographer.browsers.chromium - INFO - Found chromium path: /snap/chromium/3524/usr/lib/chromium-browser/chrome
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-zhn3kwsr.
+2026-09-13 01:40:11 - choreographer.browser_async - INFO - Opening browser.
+2026-09-13 01:40:11 - choreographer.utils._tmpfile - INFO - Temp directory created: /home/mw/.choreographer-cv0pevc8.
+2026-09-13 01:40:11 - choreographer.browsers.chromium - INFO - Temporary directory at: /home/mw/.choreographer-cv0pevc8
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Conforming 1 to file:///home/mw/.choreographer-zhn3kwsr/index.html
+2026-09-13 01:40:11 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Got 8505
+2026-09-13 01:40:12 - kaleido._kaleido_tab - INFO - Processing Latency_vs_Throughput_Joint_Uncertainty.png
+2026-09-13 01:40:12 - kaleido._kaleido_tab - INFO - Sending big command for Latency_vs_Throughput_Joint_Uncertainty.png.
+2026-09-13 01:40:12 - kaleido._kaleido_tab - INFO - Sent big command for Latency_vs_Throughput_Joint_Uncertainty.png.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Reloading tab 8505 before return.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Putting tab 8505 back (queue size: 0).
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-09-13 01:40:12 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:12 - choreographer.browser_async - INFO - Closing browser.
+2026-09-13 01:40:12 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:12 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-09-13 01:40:12 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:12 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:12 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-09-13 01:40:12 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-09-13 01:40:12 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo

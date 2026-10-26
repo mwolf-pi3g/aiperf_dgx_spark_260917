@@ -1,0 +1,183 @@
+2026-10-26 10:42:00 - aiperf.plot.logging - INFO - Plot logging initialized with level: INFO
+2026-10-26 10:42:00 - aiperf.plot.logging - INFO - Log file: /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/plots/aiperf_plot.log
+2026-10-26 10:42:00 - aiperf.plot.plot_controller - INFO - Server metrics downsampling: 5.0s windows, mean aggregation
+2026-10-26 10:42:00 - ModeDetector - INFO - Found 1 unique run directories
+2026-10-26 10:42:00 - ModeDetector - INFO - Detected SINGLE_RUN mode: 1 run directory found
+2026-10-26 10:42:00 - aiperf.plot.plot_controller - INFO - Generating single-run plots (1 run)
+2026-10-26 10:42:00 - DataLoader - INFO - Loading run from: /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8
+2026-10-26 10:42:00 - DataLoader - INFO - Loaded 32 records from /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/profile_export.jsonl
+2026-10-26 10:42:00 - DataLoader - INFO - Loaded aggregated data from /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/profile_export_aiperf.json
+2026-10-26 10:42:00 - DataLoader - INFO - Extracted telemetry data with 1 endpoints
+2026-10-26 10:42:00 - DataLoader - INFO - Calculated GPU count from telemetry: 1
+2026-10-26 10:42:00 - DataLoader - INFO - Added 1 derived metric(s): output_token_throughput_per_gpu (using 1 GPUs)
+2026-10-26 10:42:00 - DataLoader - INFO - Loaded timeslice data from /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/profile_export_aiperf_timeslices.csv (2420 rows, 4 timeslices)
+2026-10-26 10:42:00 - DataLoader - INFO - Extracted slice_duration: 10.0s
+2026-10-26 10:42:00 - DataLoader - INFO - Loaded 939 GPU telemetry records from /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/gpu_telemetry_export.jsonl (1 GPUs)
+2026-10-26 10:42:00 - DataLoader - INFO - Loaded 49 server metrics from /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/server_metrics_export.json (2244 timeslice data points)
+2026-10-26 10:42:00 - DataLoader - INFO - Loaded server metrics from JSON (Parquet not available)
+2026-10-26 10:42:00 - DataLoader - INFO - Found 79 available metrics: ['active_decode_throughput', 'active_decode_throughput_per_user', 'active_prefill_throughput', 'active_prefill_throughput_per_user', 'active_total_throughput', 'benchmark_duration', 'credit_to_start_latency', 'decode_duration', 'e2e_output_token_throughput', 'effective_concurrency', 'effective_decode_concurrency', 'effective_decode_throughput', 'effective_decode_throughput_per_user', 'effective_latency', 'effective_prefill_concurrency', 'effective_prefill_throughput', 'effective_prefill_throughput_per_user', 'effective_total_throughput', 'http_req_blocked', 'http_req_chunks_received', 'http_req_chunks_sent', 'http_req_connecting', 'http_req_connection_overhead', 'http_req_connection_reused', 'http_req_data_received', 'http_req_data_sent', 'http_req_dns_lookup', 'http_req_duration', 'http_req_receiving', 'http_req_sending', 'http_req_total', 'http_req_waiting', 'input_sequence_length', 'input_token_throughput', 'inter_chunk_latency', 'inter_token_latency', 'nvidia_average_gpu_power', 'nvidia_energy_delay_product', 'nvidia_energy_per_output_token', 'nvidia_energy_per_request', 'nvidia_energy_per_total_token', 'nvidia_energy_per_user', 'nvidia_output_tokens_per_joule', 'nvidia_output_tps_per_watt', 'nvidia_performance_per_watt', 'nvidia_total_gpu_energy', 'nvidia_total_gpu_power', 'osl_mismatch_count', 'osl_mismatch_diff_pct', 'output_sequence_length', 'output_token_count', 'output_token_throughput', 'output_token_throughput_per_gpu', 'output_token_throughput_per_user', 'overall_usage_prompt_cache_read_pct', 'prefill_throughput_per_user', 'reasoning_token_count', 'request_count', 'request_latency', 'request_throughput', 'time_to_first_output_token', 'time_to_first_token', 'time_to_second_token', 'tokens_in_flight', 'total_isl', 'total_osl', 'total_output_tokens', 'total_reasoning_tokens', 'total_token_throughput', 'total_usage_completion_tokens', 'total_usage_prompt_cache_read_tokens', 'total_usage_prompt_tokens', 'total_usage_reasoning_tokens', 'total_usage_total_tokens', 'usage_completion_tokens', 'usage_prompt_cache_read_tokens', 'usage_prompt_tokens', 'usage_reasoning_tokens', 'usage_total_tokens']
+2026-10-26 10:42:00 - aiperf.plot.config - INFO - Classification disabled for plot 'ttft_over_time': using groups=['run_name']
+2026-10-26 10:42:00 - aiperf.plot.config - INFO - Classification disabled for plot 'ttft_timeline': using groups=['run_name']
+2026-10-26 10:42:00 - aiperf.plot.config - INFO - Classification disabled for plot 'timeslices_ttft': using groups=['run_name']
+2026-10-26 10:42:00 - aiperf.plot.config - INFO - Classification disabled for plot 'timeslices_itl': using groups=['run_name']
+2026-10-26 10:42:00 - aiperf.plot.config - INFO - Classification disabled for plot 'gpu_utilization_and_throughput_over_time': using groups=['run_name']
+2026-10-26 10:42:03 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:42:03 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:42:03 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpq_5ounkn.
+2026-10-26 10:42:03 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:42:03 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpfsu7_f37.
+2026-10-26 10:42:03 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmpfsu7_f37
+2026-10-26 10:42:04 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmpq_5ounkn/index.html
+2026-10-26 10:42:04 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:42:10 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:42:10 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:42:10 - kaleido.kaleido - INFO - Got C127
+2026-10-26 10:42:10 - kaleido._kaleido_tab - INFO - Processing TTFT_Per_Request_Over_Time.png
+2026-10-26 10:42:10 - kaleido._kaleido_tab - INFO - Sending big command for TTFT_Per_Request_Over_Time.png.
+2026-10-26 10:42:11 - kaleido._kaleido_tab - INFO - Sent big command for TTFT_Per_Request_Over_Time.png.
+2026-10-26 10:42:11 - kaleido.kaleido - INFO - Reloading tab C127 before return.
+2026-10-26 10:42:12 - kaleido.kaleido - INFO - Putting tab C127 back (queue size: 0).
+2026-10-26 10:42:12 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:42:12 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:42:12 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:12 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:12 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:12 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:12 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:12 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:12 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:42:12 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmphxqqoo0i.
+2026-10-26 10:42:12 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:42:12 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpw35ug5gh.
+2026-10-26 10:42:12 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmpw35ug5gh
+2026-10-26 10:42:13 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmphxqqoo0i/index.html
+2026-10-26 10:42:13 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:42:20 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:42:20 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:42:20 - kaleido.kaleido - INFO - Got 764C
+2026-10-26 10:42:20 - kaleido._kaleido_tab - INFO - Processing Request_Timeline_TTFT_Phases_Over_Time.png
+2026-10-26 10:42:20 - kaleido._kaleido_tab - INFO - Sending big command for Request_Timeline_TTFT_Phases_Over_Time.png.
+2026-10-26 10:42:21 - kaleido._kaleido_tab - INFO - Sent big command for Request_Timeline_TTFT_Phases_Over_Time.png.
+2026-10-26 10:42:21 - kaleido.kaleido - INFO - Reloading tab 764C before return.
+2026-10-26 10:42:21 - kaleido.kaleido - INFO - Putting tab 764C back (queue size: 0).
+2026-10-26 10:42:21 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:42:21 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:42:21 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:21 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:21 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:21 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:21 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:21 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:22 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:22 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:22 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:42:22 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpzs7ihgt8.
+2026-10-26 10:42:22 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:42:22 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpk01avqs1.
+2026-10-26 10:42:22 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmpk01avqs1
+2026-10-26 10:42:23 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmpzs7ihgt8/index.html
+2026-10-26 10:42:23 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:42:33 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:42:33 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:42:33 - kaleido.kaleido - INFO - Got 1C4C
+2026-10-26 10:42:33 - kaleido._kaleido_tab - INFO - Processing Time_to_First_Token_Across_Time_Slices.png
+2026-10-26 10:42:33 - kaleido._kaleido_tab - INFO - Sending big command for Time_to_First_Token_Across_Time_Slices.png.
+2026-10-26 10:42:34 - kaleido._kaleido_tab - INFO - Sent big command for Time_to_First_Token_Across_Time_Slices.png.
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Reloading tab 1C4C before return.
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Putting tab 1C4C back (queue size: 0).
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:42:34 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:34 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:34 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:34 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:35 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:42:35 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:42:35 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpxuoat3r4.
+2026-10-26 10:42:35 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:42:35 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmp6dtzirad.
+2026-10-26 10:42:35 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmp6dtzirad
+2026-10-26 10:42:36 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmpxuoat3r4/index.html
+2026-10-26 10:42:36 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:42:43 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:42:43 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:42:43 - kaleido.kaleido - INFO - Got DC11
+2026-10-26 10:42:43 - kaleido._kaleido_tab - INFO - Processing Inter_Token_Latency_Across_Time_Slices.png
+2026-10-26 10:42:43 - kaleido._kaleido_tab - INFO - Sending big command for Inter_Token_Latency_Across_Time_Slices.png.
+2026-10-26 10:42:43 - kaleido._kaleido_tab - INFO - Sent big command for Inter_Token_Latency_Across_Time_Slices.png.
+2026-10-26 10:42:43 - kaleido.kaleido - INFO - Reloading tab DC11 before return.
+2026-10-26 10:42:44 - kaleido.kaleido - INFO - Putting tab DC11 back (queue size: 0).
+2026-10-26 10:42:44 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:42:44 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:42:44 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:44 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:44 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:44 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:44 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:44 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:44 - choreographer.browsers.chromium - INFO - Chromium init'ed with kwargs {}
+2026-10-26 10:42:44 - choreographer.browsers.chromium - INFO - Found chromium path: /usr/bin/google-chrome
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmp5osbe20b.
+2026-10-26 10:42:44 - choreographer.browser_async - INFO - Opening browser.
+2026-10-26 10:42:44 - choreographer.utils._tmpfile - INFO - Temp directory created: /tmp/tmpew2kj2oj.
+2026-10-26 10:42:44 - choreographer.browsers.chromium - INFO - Temporary directory at: /tmp/tmpew2kj2oj
+2026-10-26 10:42:46 - kaleido.kaleido - INFO - Conforming 1 to file:///tmp/tmp5osbe20b/index.html
+2026-10-26 10:42:46 - kaleido.kaleido - INFO - Waiting on all navigates
+2026-10-26 10:42:51 - kaleido.kaleido - INFO - All navigates done, putting them all in queue.
+2026-10-26 10:42:51 - kaleido.kaleido - INFO - Getting tab from queue (has 1)
+2026-10-26 10:42:51 - kaleido.kaleido - INFO - Got C286
+2026-10-26 10:42:51 - kaleido._kaleido_tab - INFO - Processing Output_Token_Throughput_with_GPU_UtilizationbrsupGPU_activity_semantics_are_vendor_specific_and_not_comparable_across_vendorssup.png
+2026-10-26 10:42:51 - kaleido._kaleido_tab - INFO - Sending big command for Output_Token_Throughput_with_GPU_UtilizationbrsupGPU_activity_semantics_are_vendor_specific_and_not_comparable_across_vendorssup.png.
+2026-10-26 10:42:52 - kaleido._kaleido_tab - INFO - Sent big command for Output_Token_Throughput_with_GPU_UtilizationbrsupGPU_activity_semantics_are_vendor_specific_and_not_comparable_across_vendorssup.png.
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Reloading tab C286 before return.
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Putting tab C286 back (queue size: 0).
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Waiting for all cleanups to finish.
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Exiting Kaleido
+2026-10-26 10:42:52 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:52 - choreographer.browser_async - INFO - Closing browser.
+2026-10-26 10:42:52 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:52 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:52 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:52 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:52 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:52 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Cancelling tasks.
+2026-10-26 10:42:52 - kaleido.kaleido - INFO - Exiting Kaleido/Choreo
+2026-10-26 10:42:53 - choreographer.utils._tmpfile - INFO - TemporaryDirectory.cleanup() worked.
+2026-10-26 10:42:53 - choreographer.utils._tmpfile - INFO - shutil.rmtree worked.
