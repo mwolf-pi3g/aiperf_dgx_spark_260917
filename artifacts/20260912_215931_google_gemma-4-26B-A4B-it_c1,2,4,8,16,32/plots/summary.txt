@@ -1,0 +1,11 @@
+AIPerf Plot Export Summary
+==================================================
+
+Generated 4 plots:
+
+  - pareto_curve_throughput_per_gpu_vs_latency.png
+  - pareto_curve_throughput_per_gpu_vs_interactivity.png
+  - ttft_vs_throughput.png
+  - latency_throughput_uncertainty.png
+
+Output directory: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/plots
