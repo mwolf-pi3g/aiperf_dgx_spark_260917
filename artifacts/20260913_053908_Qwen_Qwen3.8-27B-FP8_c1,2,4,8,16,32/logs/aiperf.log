@@ -1,0 +1,129 @@
+2026-09-13 05:39:10.160 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 05:39:10.162 - aiperf.cli_runner._multi_run - INFO - Starting Multi-Run Benchmark
+2026-09-13 05:39:10.162 - aiperf.cli_runner._multi_run - INFO -   Configurations: 6
+2026-09-13 05:39:10.162 - aiperf.cli_runner._multi_run - INFO -   Trials per config: 1
+2026-09-13 05:39:10.162 - aiperf.cli_runner._multi_run - INFO -   Total runs: 6
+2026-09-13 05:39:10.162 - aiperf.cli_runner._multi_run - INFO -   Confidence level: 95%
+2026-09-13 05:39:10.163 - aiperf.cli_runner._multi_run - INFO -   Cooldown between runs: 0.0s
+2026-09-13 05:39:10.163 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 05:39:10.163 - aiperf.cli_runner._multi_run - INFO -   Estimated duration: 1980s
+2026-09-13 05:39:10.164 - aiperf.orchestrator.orchestrator - INFO - Starting multi-run benchmark (repeated): 1 trials x 6 variations
+2026-09-13 05:39:10.165 - aiperf.orchestrator.orchestrator - INFO - [v0 t0] Executing run_0001...
+2026-09-13 05:39:10.625 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 05:39:10.632 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Qwen/Qwen3.8-27B-FP8 detected
+2026-09-13 05:39:10.632 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 05:39:10.633 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Qwen/Qwen3.8-27B-FP8']
+2026-09-13 05:44:47.570 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      6.21                637.85                129.15          66623.06        1  
+                                                                                                                                 
+
+2026-09-13 05:44:47.572 - aiperf.orchestrator.orchestrator - INFO - [v1 t0] Executing run_0001...
+2026-09-13 05:44:48.125 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 05:44:48.131 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Qwen/Qwen3.8-27B-FP8 detected
+2026-09-13 05:44:48.131 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 05:44:48.131 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Qwen/Qwen3.8-27B-FP8']
+2026-09-13 05:50:24.093 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      6.21                637.85                129.15          66623.06        1  
+                             2                     12.41               1085.22                128.77          66717.75        1  
+                                                                                                                                 
+
+2026-09-13 05:50:24.095 - aiperf.orchestrator.orchestrator - INFO - [v2 t0] Executing run_0001...
+2026-09-13 05:50:24.583 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 05:50:24.589 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Qwen/Qwen3.8-27B-FP8 detected
+2026-09-13 05:50:24.589 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 05:50:24.589 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Qwen/Qwen3.8-27B-FP8']
+2026-09-13 05:56:01.199 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      6.21                637.85                129.15          66623.06        1  
+                             2                     12.41               1085.22                128.77          66717.75        1  
+                             4                     24.82               2069.93                133.54          69665.33        1  
+                                                                                                                                 
+
+2026-09-13 05:56:01.200 - aiperf.orchestrator.orchestrator - INFO - [v3 t0] Executing run_0001...
+2026-09-13 05:56:01.647 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 05:56:01.652 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Qwen/Qwen3.8-27B-FP8 detected
+2026-09-13 05:56:01.652 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 05:56:01.652 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Qwen/Qwen3.8-27B-FP8']
+2026-09-13 06:01:38.164 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      6.21                637.85                129.15          66623.06        1  
+                             2                     12.41               1085.22                128.77          66717.75        1  
+                             4                     24.82               2069.93                133.54          69665.33        1  
+                             8                     49.65               4121.45                142.04          75676.21        1  
+                                                                                                                                 
+
+2026-09-13 06:01:38.166 - aiperf.orchestrator.orchestrator - INFO - [v4 t0] Executing run_0001...
+2026-09-13 06:01:38.626 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 06:01:38.631 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Qwen/Qwen3.8-27B-FP8 detected
+2026-09-13 06:01:38.631 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 06:01:38.632 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Qwen/Qwen3.8-27B-FP8']
+2026-09-13 06:07:15.181 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      6.21                637.85                129.15          66623.06        1  
+                             2                     12.41               1085.22                128.77          66717.75        1  
+                             4                     24.82               2069.93                133.54          69665.33        1  
+                             8                     49.65               4121.45                142.04          75676.21        1  
+                            16                     74.47               8354.50                162.20          89882.09        1  
+                                                                                                                                 
+
+2026-09-13 06:07:15.183 - aiperf.orchestrator.orchestrator - INFO - [v5 t0] Executing run_0001...
+2026-09-13 06:07:15.671 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 06:07:15.676 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Qwen/Qwen3.8-27B-FP8 detected
+2026-09-13 06:07:15.677 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 06:07:15.677 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Qwen/Qwen3.8-27B-FP8']
+2026-09-13 06:12:40.564 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      6.21                637.85                129.15          66623.06        1  
+                             2                     12.41               1085.22                128.77          66717.75        1  
+                             4                     24.82               2069.93                133.54          69665.33        1  
+                             8                     49.65               4121.45                142.04          75676.21        1  
+                            16                     74.47               8354.50                162.20          89882.09        1  
+                            32                    154.13              17144.31                203.28         118344.92        1  
+                                                                                                                                 
+
+2026-09-13 06:12:40.566 - aiperf.orchestrator.orchestrator - INFO - Repeated mode complete: 6/6 runs successful
+2026-09-13 06:12:40.567 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 06:12:40.567 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 06:12:40.567 - aiperf.cli_runner._multi_run - INFO - Computing aggregate statistics...
+2026-09-13 06:12:40.570 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 06:12:40.582 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.583 - AggregateSweepJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 06:12:40.583 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json
+2026-09-13 06:12:40.583 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=1) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.584 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 06:12:40.585 - AggregateSweepCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 06:12:40.585 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate JSON written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 06:12:40.585 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate CSV written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 06:12:40.591 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json
+2026-09-13 06:12:40.591 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.592 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=2) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.592 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 06:12:40.598 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.599 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json
+2026-09-13 06:12:40.599 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=4) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.600 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 06:12:40.606 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.606 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json
+2026-09-13 06:12:40.606 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=8) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.607 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 06:12:40.615 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.615 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json
+2026-09-13 06:12:40.616 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=16) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.617 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 06:12:40.628 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-13 06:12:40.629 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json
+2026-09-13 06:12:40.629 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=32) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_053908_Qwen_Qwen3.8-27B-FP8_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
