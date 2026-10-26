@@ -1,0 +1,129 @@
+2026-09-12 23:48:26.565 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-12 23:48:26.566 - aiperf.cli_runner._multi_run - INFO - Starting Multi-Run Benchmark
+2026-09-12 23:48:26.566 - aiperf.cli_runner._multi_run - INFO -   Configurations: 6
+2026-09-12 23:48:26.567 - aiperf.cli_runner._multi_run - INFO -   Trials per config: 1
+2026-09-12 23:48:26.567 - aiperf.cli_runner._multi_run - INFO -   Total runs: 6
+2026-09-12 23:48:26.567 - aiperf.cli_runner._multi_run - INFO -   Confidence level: 95%
+2026-09-12 23:48:26.567 - aiperf.cli_runner._multi_run - INFO -   Cooldown between runs: 0.0s
+2026-09-12 23:48:26.567 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-12 23:48:26.567 - aiperf.cli_runner._multi_run - INFO -   Estimated duration: 1980s
+2026-09-12 23:48:26.568 - aiperf.orchestrator.orchestrator - INFO - Starting multi-run benchmark (repeated): 1 trials x 6 variations
+2026-09-12 23:48:26.569 - aiperf.orchestrator.orchestrator - INFO - [v0 t0] Executing run_0001...
+2026-09-12 23:48:27.030 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 23:48:27.037 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer ibm-granite/granite-4.2-30b detected
+2026-09-12 23:48:27.038 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 23:48:27.038 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['ibm-granite/granite-4.2-30b']
+2026-09-12 23:54:03.583 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      3.10                946.79                258.85         133163.27        1  
+                                                                                                                                 
+
+2026-09-12 23:54:03.585 - aiperf.orchestrator.orchestrator - INFO - [v1 t0] Executing run_0001...
+2026-09-12 23:54:04.048 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 23:54:04.053 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer ibm-granite/granite-4.2-30b detected
+2026-09-12 23:54:04.053 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 23:54:04.054 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['ibm-granite/granite-4.2-30b']
+2026-09-12 23:59:44.919 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      3.10                946.79                258.85         133163.27        1  
+                             2                      6.21               1673.03                258.56         133225.12        1  
+                                                                                                                                 
+
+2026-09-12 23:59:44.920 - aiperf.orchestrator.orchestrator - INFO - [v2 t0] Executing run_0001...
+2026-09-12 23:59:45.393 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 23:59:45.399 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer ibm-granite/granite-4.2-30b detected
+2026-09-12 23:59:45.399 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 23:59:45.399 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['ibm-granite/granite-4.2-30b']
+2026-09-13 00:05:21.234 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      3.10                946.79                258.85         133163.27        1  
+                             2                      6.21               1673.03                258.56         133225.12        1  
+                             4                     12.41               3381.51                262.99         136221.78        1  
+                                                                                                                                 
+
+2026-09-13 00:05:21.236 - aiperf.orchestrator.orchestrator - INFO - [v3 t0] Executing run_0001...
+2026-09-13 00:05:21.713 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:05:21.719 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer ibm-granite/granite-4.2-30b detected
+2026-09-13 00:05:21.719 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:05:21.719 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['ibm-granite/granite-4.2-30b']
+2026-09-13 00:10:57.783 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      3.10                946.79                258.85         133163.27        1  
+                             2                      6.21               1673.03                258.56         133225.12        1  
+                             4                     12.41               3381.51                262.99         136221.78        1  
+                             8                     24.82               6183.62                271.46         141648.48        1  
+                                                                                                                                 
+
+2026-09-13 00:10:57.785 - aiperf.orchestrator.orchestrator - INFO - [v4 t0] Executing run_0001...
+2026-09-13 00:10:58.249 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:10:58.255 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer ibm-granite/granite-4.2-30b detected
+2026-09-13 00:10:58.255 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:10:58.255 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['ibm-granite/granite-4.2-30b']
+2026-09-13 00:16:34.581 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      3.10                946.79                258.85         133163.27        1  
+                             2                      6.21               1673.03                258.56         133225.12        1  
+                             4                     12.41               3381.51                262.99         136221.78        1  
+                             8                     24.82               6183.62                271.46         141648.48        1  
+                            16                     49.65              12389.02                289.93         156393.06        1  
+                                                                                                                                 
+
+2026-09-13 00:16:34.583 - aiperf.orchestrator.orchestrator - INFO - [v5 t0] Executing run_0001...
+2026-09-13 00:16:35.064 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:16:35.070 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer ibm-granite/granite-4.2-30b detected
+2026-09-13 00:16:35.070 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:16:35.071 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['ibm-granite/granite-4.2-30b']
+2026-09-13 00:22:11.100 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      3.10                946.79                258.85         133163.27        1  
+                             2                      6.21               1673.03                258.56         133225.12        1  
+                             4                     12.41               3381.51                262.99         136221.78        1  
+                             8                     24.82               6183.62                271.46         141648.48        1  
+                            16                     49.65              12389.02                289.93         156393.06        1  
+                            32                     49.65              24916.04                326.19         187744.42        1  
+                                                                                                                                 
+
+2026-09-13 00:22:11.102 - aiperf.orchestrator.orchestrator - INFO - Repeated mode complete: 6/6 runs successful
+2026-09-13 00:22:11.102 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 00:22:11.103 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 00:22:11.103 - aiperf.cli_runner._multi_run - INFO - Computing aggregate statistics...
+2026-09-13 00:22:11.106 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 00:22:11.116 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.117 - AggregateSweepCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 00:22:11.117 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json
+2026-09-13 00:22:11.117 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=1) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.118 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 00:22:11.119 - AggregateSweepJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 00:22:11.119 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate JSON written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 00:22:11.119 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate CSV written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 00:22:11.124 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.125 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json
+2026-09-13 00:22:11.125 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=2) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.126 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 00:22:11.132 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json
+2026-09-13 00:22:11.132 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.132 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=4) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.133 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 00:22:11.139 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.140 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json
+2026-09-13 00:22:11.140 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=8) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.140 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 00:22:11.147 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.148 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json
+2026-09-13 00:22:11.148 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=16) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.149 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 00:22:11.155 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-13 00:22:11.155 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json
+2026-09-13 00:22:11.155 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=32) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_234824_ibm-granite_granite-4.2-30b_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
