@@ -1,0 +1,129 @@
+2026-09-12 21:59:32.888 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-12 21:59:32.889 - aiperf.cli_runner._multi_run - INFO - Starting Multi-Run Benchmark
+2026-09-12 21:59:32.889 - aiperf.cli_runner._multi_run - INFO -   Configurations: 6
+2026-09-12 21:59:32.890 - aiperf.cli_runner._multi_run - INFO -   Trials per config: 1
+2026-09-12 21:59:32.890 - aiperf.cli_runner._multi_run - INFO -   Total runs: 6
+2026-09-12 21:59:32.890 - aiperf.cli_runner._multi_run - INFO -   Confidence level: 95%
+2026-09-12 21:59:32.890 - aiperf.cli_runner._multi_run - INFO -   Cooldown between runs: 0.0s
+2026-09-12 21:59:32.890 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-12 21:59:32.890 - aiperf.cli_runner._multi_run - INFO -   Estimated duration: 1980s
+2026-09-12 21:59:32.891 - aiperf.orchestrator.orchestrator - INFO - Starting multi-run benchmark (repeated): 1 trials x 6 variations
+2026-09-12 21:59:32.892 - aiperf.orchestrator.orchestrator - INFO - [v0 t0] Executing run_0001...
+2026-09-12 21:59:33.355 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 21:59:33.363 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer google/gemma-4-26B-A4B-it detected
+2026-09-12 21:59:33.363 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 21:59:33.364 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['google/gemma-4-26B-A4B-it']
+2026-09-12 22:04:54.237 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     22.84               1336.29                 43.12          22795.77        1  
+                                                                                                                                 
+
+2026-09-12 22:04:54.238 - aiperf.orchestrator.orchestrator - INFO - [v1 t0] Executing run_0001...
+2026-09-12 22:04:54.730 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 22:04:54.736 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer google/gemma-4-26B-A4B-it detected
+2026-09-12 22:04:54.736 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 22:04:54.736 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['google/gemma-4-26B-A4B-it']
+2026-09-12 22:10:23.440 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     22.84               1336.29                 43.12          22795.77        1  
+                             2                     41.44                621.48                 48.29          25040.50        1  
+                                                                                                                                 
+
+2026-09-12 22:10:23.442 - aiperf.orchestrator.orchestrator - INFO - [v2 t0] Executing run_0001...
+2026-09-12 22:10:23.924 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 22:10:23.930 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer google/gemma-4-26B-A4B-it detected
+2026-09-12 22:10:23.930 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 22:10:23.930 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['google/gemma-4-26B-A4B-it']
+2026-09-12 22:15:55.578 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     22.84               1336.29                 43.12          22795.77        1  
+                             2                     41.44                621.48                 48.29          25040.50        1  
+                             4                     63.10               1003.63                 63.26          32803.61        1  
+                                                                                                                                 
+
+2026-09-12 22:15:55.580 - aiperf.orchestrator.orchestrator - INFO - [v3 t0] Executing run_0001...
+2026-09-12 22:15:56.041 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 22:15:56.046 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer google/gemma-4-26B-A4B-it detected
+2026-09-12 22:15:56.047 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 22:15:56.047 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['google/gemma-4-26B-A4B-it']
+2026-09-12 22:21:04.623 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     22.84               1336.29                 43.12          22795.77        1  
+                             2                     41.44                621.48                 48.29          25040.50        1  
+                             4                     63.10               1003.63                 63.26          32803.61        1  
+                             8                     95.01               1710.93                 84.19          43605.51        1  
+                                                                                                                                 
+
+2026-09-12 22:21:04.625 - aiperf.orchestrator.orchestrator - INFO - [v4 t0] Executing run_0001...
+2026-09-12 22:21:05.084 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 22:21:05.089 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer google/gemma-4-26B-A4B-it detected
+2026-09-12 22:21:05.089 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 22:21:05.089 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['google/gemma-4-26B-A4B-it']
+2026-09-12 22:26:48.372 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     22.84               1336.29                 43.12          22795.77        1  
+                             2                     41.44                621.48                 48.29          25040.50        1  
+                             4                     63.10               1003.63                 63.26          32803.61        1  
+                             8                     95.01               1710.93                 84.19          43605.51        1  
+                            16                    124.12               3233.90                112.95          59671.44        1  
+                                                                                                                                 
+
+2026-09-12 22:26:48.374 - aiperf.orchestrator.orchestrator - INFO - [v5 t0] Executing run_0001...
+2026-09-12 22:26:48.842 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-12 22:26:48.848 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer google/gemma-4-26B-A4B-it detected
+2026-09-12 22:26:48.848 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-12 22:26:48.849 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['google/gemma-4-26B-A4B-it']
+2026-09-12 22:32:30.805 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     22.84               1336.29                 43.12          22795.77        1  
+                             2                     41.44                621.48                 48.29          25040.50        1  
+                             4                     63.10               1003.63                 63.26          32803.61        1  
+                             8                     95.01               1710.93                 84.19          43605.51        1  
+                            16                    124.12               3233.90                112.95          59671.44        1  
+                            32                    198.59               6576.42                146.71          79469.07        1  
+                                                                                                                                 
+
+2026-09-12 22:32:30.806 - aiperf.orchestrator.orchestrator - INFO - Repeated mode complete: 6/6 runs successful
+2026-09-12 22:32:30.807 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-12 22:32:30.808 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-12 22:32:30.808 - aiperf.cli_runner._multi_run - INFO - Computing aggregate statistics...
+2026-09-12 22:32:30.811 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-12 22:32:30.822 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json
+2026-09-12 22:32:30.823 - AggregateSweepJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-12 22:32:30.823 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.824 - AggregateSweepCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-12 22:32:30.824 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=1) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.824 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-12 22:32:30.825 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate JSON written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-12 22:32:30.825 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate CSV written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-12 22:32:30.836 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json
+2026-09-12 22:32:30.836 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.837 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=2) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.838 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-12 22:32:30.849 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.851 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json
+2026-09-12 22:32:30.852 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=4) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.853 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-12 22:32:30.863 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json
+2026-09-12 22:32:30.866 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.867 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=8) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.868 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-12 22:32:30.880 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json
+2026-09-12 22:32:30.880 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.881 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=16) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.882 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-12 22:32:30.894 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json
+2026-09-12 22:32:30.894 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-12 22:32:30.895 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=32) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260912_215931_google_gemma-4-26B-A4B-it_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
