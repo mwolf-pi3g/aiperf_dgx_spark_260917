@@ -1,0 +1,138 @@
+[
+  {
+    "container_name": "vllm-qwen-qwen2-5-0-5b-instruct",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "start_time": "2026-09-10T14:27:57.491Z",
+    "end_time": "2026-09-10T14:28:24.194Z",
+    "total_time_ms": 26703,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-qwen-qwen3-0-6b",
+    "model": "Qwen/Qwen3-0.6B",
+    "start_time": "2026-09-10T14:34:03.569Z",
+    "end_time": "2026-09-10T14:34:32.197Z",
+    "total_time_ms": 28628,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-google-gemma-4-26b-a4b-it",
+    "model": "google/gemma-4-26B-A4B-it",
+    "start_time": "2026-09-12T13:46:57.170Z",
+    "end_time": "2026-09-12T13:54:16.929Z",
+    "total_time_ms": 439759,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-google-gemma-4-26b-a4b-it",
+    "model": "google/gemma-4-26B-A4B-it",
+    "start_time": "2026-09-12T19:51:56.199Z",
+    "end_time": "2026-09-12T19:59:31.087Z",
+    "total_time_ms": 454888,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-google-gemma-4-e4b-it",
+    "model": "google/gemma-4-E4B-it",
+    "start_time": "2026-09-12T20:32:40.951Z",
+    "end_time": "2026-09-12T20:35:59.231Z",
+    "total_time_ms": 198280,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-google-gemma-4-e4b-it-qat-w4a16-ct",
+    "model": "google/gemma-4-E4B-it-qat-w4a16-ct",
+    "start_time": "2026-09-12T21:08:01.210Z",
+    "end_time": "2026-09-12T21:11:03.207Z",
+    "total_time_ms": 181997,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-ibm-granite-granite-4-2-30b",
+    "model": "ibm-granite/granite-4.2-30b",
+    "start_time": "2026-09-12T21:42:40.003Z",
+    "end_time": "2026-09-12T21:48:24.991Z",
+    "total_time_ms": 344988,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-inferact-qwen3-8-27b-nvfp4",
+    "model": "Inferact/Qwen3.8-27B-NVFP4",
+    "start_time": "2026-09-12T22:22:20.810Z",
+    "end_time": "2026-09-12T22:28:24.685Z",
+    "total_time_ms": 363875,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-nvidia-nvidia-nemotron-3-super-120b-a12b-nvfp4",
+    "model": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+    "start_time": "2026-09-12T23:01:54.483Z",
+    "end_time": "2026-09-12T23:12:57.563Z",
+    "total_time_ms": 663080,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-nvidia-nvidia-nemotron-3-5-lightning-30b-a3b-nvfp4",
+    "model": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "start_time": "2026-09-12T23:40:16.603Z",
+    "end_time": "2026-09-12T23:43:56.496Z",
+    "total_time_ms": 219893,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-nvidia-qwen3-6-27b-nvfp4",
+    "model": "nvidia/Qwen3.6-27B-NVFP4",
+    "start_time": "2026-09-13T00:15:50.455Z",
+    "end_time": "2026-09-13T00:21:42.092Z",
+    "total_time_ms": 351637,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-nvidia-qwen3-6-35b-a3b-nvfp4",
+    "model": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+    "start_time": "2026-09-13T00:54:59.360Z",
+    "end_time": "2026-09-13T00:59:45.350Z",
+    "total_time_ms": 285990,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-qwen-qwen3-6-27b",
+    "model": "Qwen/Qwen3.6-27B",
+    "start_time": "2026-09-13T01:31:15.375Z",
+    "end_time": "2026-09-13T01:36:27.220Z",
+    "total_time_ms": 311845,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-qwen-qwen3-6-35b-a3b",
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "start_time": "2026-09-13T02:10:20.405Z",
+    "end_time": "2026-09-13T02:16:06.241Z",
+    "total_time_ms": 345836,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-qwen-qwen3-8-27b",
+    "model": "Qwen/Qwen3.8-27B",
+    "start_time": "2026-09-13T02:48:34.886Z",
+    "end_time": "2026-09-13T02:58:27.548Z",
+    "total_time_ms": 592662,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-qwen-qwen3-8-27b-fp8",
+    "model": "Qwen/Qwen3.8-27B-FP8",
+    "start_time": "2026-09-13T03:32:21.513Z",
+    "end_time": "2026-09-13T03:39:08.320Z",
+    "total_time_ms": 406807,
+    "status": "ready"
+  },
+  {
+    "container_name": "vllm-unsloth-qwen3-8-27b-nvfp4",
+    "model": "unsloth/Qwen3.8-27B-NVFP4",
+    "start_time": "2026-09-13T04:12:51.234Z",
+    "end_time": "2026-09-13T04:18:47.961Z",
+    "total_time_ms": 356727,
+    "status": "ready"
+  }
+]

@@ -1,0 +1,45 @@
+====================================================
+       CONTAINER SETUP & VERIFICATION STARTING      
+====================================================
+[INFO] One-shot Model: nvidia/Qwen3.6-27B-NVFP4
+[INFO] Base Compose: /home/mw/aiperf-benchmarking/app/conf/base_compose.yaml
+[INFO] Log file:    /home/mw/aiperf-benchmarking/app/20260912_074638_container_setup.log
+[INFO] Loaded 1 configuration row(s).
+
+----------------------------------------------------
+[CLEANUP] Stopping existing running Docker containers...
+----------------------------------------------------
+[CLEANUP] Found 7 container(s) starting with "vllm-": vllm-inferact-qwen3-8-27b-nvfp4, vllm-ibm-granite-granite-4-2-30b, vllm-google-gemma-4-26b-a4b-it, vllm-google-gemma-4-e4b-it-qat-w4a16-ct, vllm-google-gemma-4-e4b-it, vllm-qwen-qwen3-0-6b, vllm-qwen-qwen2-5-0-5b-instruct
+[CLEANUP] Stopping container "vllm-inferact-qwen3-8-27b-nvfp4"...
+[CLEANUP] Container "vllm-inferact-qwen3-8-27b-nvfp4" stopped successfully.
+[CLEANUP] Stopping container "vllm-ibm-granite-granite-4-2-30b"...
+[CLEANUP] Container "vllm-ibm-granite-granite-4-2-30b" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-26b-a4b-it"...
+[CLEANUP] Container "vllm-google-gemma-4-26b-a4b-it" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-e4b-it-qat-w4a16-ct"...
+[CLEANUP] Container "vllm-google-gemma-4-e4b-it-qat-w4a16-ct" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-e4b-it"...
+[CLEANUP] Container "vllm-google-gemma-4-e4b-it" stopped successfully.
+[CLEANUP] Stopping container "vllm-qwen-qwen3-0-6b"...
+[CLEANUP] Container "vllm-qwen-qwen3-0-6b" stopped successfully.
+[CLEANUP] Stopping container "vllm-qwen-qwen2-5-0-5b-instruct"...
+[CLEANUP] Container "vllm-qwen-qwen2-5-0-5b-instruct" stopped successfully.
+
+----------------------------------------------------
+[ROW 1/1] Target Model: nvidia/Qwen3.6-27B-NVFP4
+[CONTAINER NAME]: vllm-nvidia-qwen3-6-27b-nvfp4
+----------------------------------------------------
+[START] Spawning container "vllm-nvidia-qwen3-6-27b-nvfp4" via Docker Compose (-f base_compose.yaml -f vllm-nvidia-qwen3-6-27b-nvfp4.yaml)...
+[POLL] Polling readiness at http://localhost:8000/v1/models (timeout: 1800s)...
+[POLL] Endpoint http://localhost:8000/v1/models is ready (HTTP 200).
+[SUCCESS] Model "nvidia/Qwen3.6-27B-NVFP4" is ready and available! (Time: 408.13s)
+[TEARDOWN] Stopping container "vllm-nvidia-qwen3-6-27b-nvfp4" after successful run...
+
+====================================================
+       CONTAINER SETUP EXECUTION SUMMARY            
+====================================================
+  [PASSED] nvidia/Qwen3.6-27B-NVFP4 (vllm-nvidia-qwen3-6-27b-nvfp4) - 408.13s
+----------------------------------------------------
+Total Models: 1 | Passed: 1 | Failed: 0
+Full log saved to: /home/mw/aiperf-benchmarking/app/20260912_074638_container_setup.log
+====================================================

@@ -1,0 +1,262 @@
+====================================================
+       CONTAINER SETUP & VERIFICATION STARTING      
+====================================================
+[INFO] One-shot Model: Inferact/Qwen3.8-27B-NVFP4
+[INFO] Base Compose: /home/mw/aiperf-benchmarking/app/conf/base_compose.yaml
+[INFO] Log file:    /home/mw/aiperf-benchmarking/app/20260911_183708_container_setup.log
+[INFO] Loaded 1 configuration row(s).
+
+----------------------------------------------------
+[CLEANUP] Stopping existing running Docker containers...
+----------------------------------------------------
+[CLEANUP] Found 7 container(s) starting with "vllm-": vllm-ibm-granite-granite-4-2-30b, vllm-google-gemma-4-26b-a4b-it, vllm-google-gemma-4-e4b-it-qat-w4a16-ct, vllm-google-gemma-4-e4b-it, vllm-qwen-qwen3-0-6b, vllm-qwen-qwen2-5-0-5b-instruct, vllm-inferact-qwen3-8-27b-nvfp4
+[CLEANUP] Stopping container "vllm-ibm-granite-granite-4-2-30b"...
+[CLEANUP] Container "vllm-ibm-granite-granite-4-2-30b" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-26b-a4b-it"...
+[CLEANUP] Container "vllm-google-gemma-4-26b-a4b-it" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-e4b-it-qat-w4a16-ct"...
+[CLEANUP] Container "vllm-google-gemma-4-e4b-it-qat-w4a16-ct" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-e4b-it"...
+[CLEANUP] Container "vllm-google-gemma-4-e4b-it" stopped successfully.
+[CLEANUP] Stopping container "vllm-qwen-qwen3-0-6b"...
+[CLEANUP] Container "vllm-qwen-qwen3-0-6b" stopped successfully.
+[CLEANUP] Stopping container "vllm-qwen-qwen2-5-0-5b-instruct"...
+[CLEANUP] Container "vllm-qwen-qwen2-5-0-5b-instruct" stopped successfully.
+[CLEANUP] Stopping container "vllm-inferact-qwen3-8-27b-nvfp4"...
+[CLEANUP] Container "vllm-inferact-qwen3-8-27b-nvfp4" stopped successfully.
+
+----------------------------------------------------
+[ROW 1/1] Target Model: Inferact/Qwen3.8-27B-NVFP4
+[CONTAINER NAME]: vllm-inferact-qwen3-8-27b-nvfp4
+----------------------------------------------------
+[START] Spawning container "vllm-inferact-qwen3-8-27b-nvfp4" via Docker Compose (-f base_compose.yaml -f vllm-inferact-qwen3-8-27b-nvfp4.yaml)...
+[ERROR] Failed to bring up container "vllm-inferact-qwen3-8-27b-nvfp4": Command "docker compose -f /home/mw/aiperf-benchmarking/app/conf/base_compose.yaml -f /home/mw/aiperf-benchmarking/app/conf/model_compose_overrides/vllm-inferact-qwen3-8-27b-nvfp4.yaml -p vllm-inferact-qwen3-8-27b-nvfp4 up -d" exited with code 1
+
+=== INTERLEAVED CONTAINER LOGS (vllm-inferact-qwen3-8-27b-nvfp4) ===
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:35674 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:35662 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO 09-10 08:14:07 [loggers.py:310] Engine 000: Avg prompt throughput: 944.2 tokens/s, Avg generation throughput: 81.4 tokens/s, Running: 16 reqs, Waiting: 0 reqs, GPU KV cache usage: 4.6%, Prefix cache hit rate: 0.0%
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO 09-10 08:14:17 [loggers.py:310] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 129.6 tokens/s, Running: 16 reqs, Waiting: 0 reqs, GPU KV cache usage: 4.6%, Prefix cache hit rate: 0.0%
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57486 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52060 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57500 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52086 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57512 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57510 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52096 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57530 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57540 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52052 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52120 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57546 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52054 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52062 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57560 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO 09-10 08:14:27 [loggers.py:310] Engine 000: Avg prompt throughput: 944.3 tokens/s, Avg generation throughput: 83.2 tokens/s, Running: 16 reqs, Waiting: 0 reqs, GPU KV cache usage: 4.6%, Prefix cache hit rate: 0.0%
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO 09-10 08:14:37 [loggers.py:310] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 129.6 tokens/s, Running: 16 reqs, Waiting: 0 reqs, GPU KV cache usage: 4.6%, Prefix cache hit rate: 0.0%
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:51914 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:57492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO 09-10 08:14:47 [loggers.py:310] Engine 000: Avg prompt throughput: 118.1 tokens/s, Avg generation throughput: 64.6 tokens/s, Running: 2 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.6%, Prefix cache hit rate: 0.0%
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52036 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO:     172.19.0.1:52128 - "GET /metrics HTTP/1.1" 200 OK
+(APIServer pid=1) INFO 09-10 08:14:57 [loggers.py:310] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 15.1 tokens/s, Running: 0 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.0%, Prefix cache hit rate: 0.0%
+(APIServer pid=1) INFO 09-10 08:15:07 [loggers.py:310] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 0.0 tokens/s, Running: 0 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.0%, Prefix cache hit rate: 0.0%
+(APIServer pid=1) INFO 09-10 13:05:24 [launcher.py:112] [shutdown] API server: shutdown triggered
+(APIServer pid=1) INFO 09-10 13:05:24 [launcher.py:128] [shutdown] API server: stopping engine client mode=abort timeout=0s
+(APIServer pid=1) INFO 09-10 13:05:24 [core_client.py:686] [shutdown] MPClient: start timeout=0s
+(APIServer pid=1) INFO 09-10 13:05:24 [core_client.py:688] [shutdown] MPClient: stopping engine manager
+(APIServer pid=1) INFO 09-10 13:05:24 [utils.py:612] [shutdown] Process manager: send sigterm to process EngineCore
+(APIServer pid=1) WARNING 09-10 13:05:24 [utils.py:632] [shutdown] Process manager: force killing remaining processes count=1
+(APIServer pid=1) WARNING 09-10 13:05:24 [utils.py:637] [shutdown] Process manager: force killing remaining process EngineCore pid 251
+(APIServer pid=1) INFO 09-10 13:05:24 [core_client.py:690] [shutdown] MPClient: engine manager stopped
+(APIServer pid=1) INFO 09-10 13:05:24 [core_client.py:691] [shutdown] MPClient: cleaning up background resources
+(APIServer pid=1) INFO 09-10 13:05:24 [core_client.py:693] [shutdown] MPClient: complete
+(APIServer pid=1) INFO 09-10 13:05:24 [launcher.py:137] [shutdown] API server: engine client stopped
+(APIServer pid=1) INFO 09-10 13:05:24 [launcher.py:140] [shutdown] API server: signalling HTTP server shutdown
+(APIServer pid=1) INFO 09-10 13:05:24 [launcher.py:161] [shutdown] API server: shutting down FastAPI HTTP server
+(APIServer pid=1) INFO:     Shutting down
+(APIServer pid=1) INFO:     Waiting for application shutdown.
+(APIServer pid=1) INFO:     Application shutdown complete.
+/usr/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+
+=== END CONTAINER LOGS ===
+
+[CLEANUP] Found 7 container(s) starting with "vllm-": vllm-ibm-granite-granite-4-2-30b, vllm-google-gemma-4-26b-a4b-it, vllm-google-gemma-4-e4b-it-qat-w4a16-ct, vllm-google-gemma-4-e4b-it, vllm-qwen-qwen3-0-6b, vllm-qwen-qwen2-5-0-5b-instruct, vllm-inferact-qwen3-8-27b-nvfp4
+[CLEANUP] Stopping container "vllm-ibm-granite-granite-4-2-30b"...
+[CLEANUP] Container "vllm-ibm-granite-granite-4-2-30b" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-26b-a4b-it"...
+[CLEANUP] Container "vllm-google-gemma-4-26b-a4b-it" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-e4b-it-qat-w4a16-ct"...
+[CLEANUP] Container "vllm-google-gemma-4-e4b-it-qat-w4a16-ct" stopped successfully.
+[CLEANUP] Stopping container "vllm-google-gemma-4-e4b-it"...
+[CLEANUP] Container "vllm-google-gemma-4-e4b-it" stopped successfully.
+[CLEANUP] Stopping container "vllm-qwen-qwen3-0-6b"...
+[CLEANUP] Container "vllm-qwen-qwen3-0-6b" stopped successfully.
+[CLEANUP] Stopping container "vllm-qwen-qwen2-5-0-5b-instruct"...
+[CLEANUP] Container "vllm-qwen-qwen2-5-0-5b-instruct" stopped successfully.
+[CLEANUP] Stopping container "vllm-inferact-qwen3-8-27b-nvfp4"...
+[CLEANUP] Container "vllm-inferact-qwen3-8-27b-nvfp4" stopped successfully.
+
+====================================================
+       CONTAINER SETUP EXECUTION SUMMARY            
+====================================================
+  [FAILED] Inferact/Qwen3.8-27B-NVFP4 (vllm-inferact-qwen3-8-27b-nvfp4) - Status: FAILED_TO_START (Docker compose up failed)
+----------------------------------------------------
+Total Models: 1 | Passed: 0 | Failed: 1
+Full log saved to: /home/mw/aiperf-benchmarking/app/20260911_183708_container_setup.log
+====================================================
