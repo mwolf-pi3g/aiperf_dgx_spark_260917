@@ -1,0 +1,12 @@
+AIPerf Plot Export Summary
+==================================================
+
+Generated 5 plots:
+
+  - ttft_over_time.png
+  - ttft_timeline.png
+  - timeslices_ttft.png
+  - timeslices_itl.png
+  - gpu_utilization_and_throughput_over_time.png
+
+Output directory: /home/mwolf/Desktop/Git/GITHUB/aiperf_dgx_spark_260917/artifacts/20260912_223559_google_gemma-4-E4B-it_c1,2,4,8,16,32/concurrency_2/plots
