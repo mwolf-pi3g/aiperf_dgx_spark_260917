@@ -39,7 +39,7 @@ Related result sets from the DGX Station:
 - vLLM image `vllm/vllm-openai:v0.29.0` for all models
 - AIPerf 0.12.0
 - 1024 input / 512 output tokens per request (fixed length, `ignore_eos:true`)
-- 300 s per concurrency level, 2 profile runs per level, random seed 42
+- 300 s per concurrency level, 1 profile run per level, random seed 42
 - Per-model vLLM flags in `conf/model_compose_overrides/`; per-model AIPerf inputs in the
   model config JSON
 
