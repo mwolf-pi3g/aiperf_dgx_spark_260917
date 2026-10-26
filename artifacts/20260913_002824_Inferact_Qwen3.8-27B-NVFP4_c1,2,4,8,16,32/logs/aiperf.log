@@ -1,0 +1,129 @@
+2026-09-13 00:28:26.263 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 00:28:26.264 - aiperf.cli_runner._multi_run - INFO - Starting Multi-Run Benchmark
+2026-09-13 00:28:26.264 - aiperf.cli_runner._multi_run - INFO -   Configurations: 6
+2026-09-13 00:28:26.265 - aiperf.cli_runner._multi_run - INFO -   Trials per config: 1
+2026-09-13 00:28:26.265 - aiperf.cli_runner._multi_run - INFO -   Total runs: 6
+2026-09-13 00:28:26.265 - aiperf.cli_runner._multi_run - INFO -   Confidence level: 95%
+2026-09-13 00:28:26.265 - aiperf.cli_runner._multi_run - INFO -   Cooldown between runs: 0.0s
+2026-09-13 00:28:26.265 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 00:28:26.265 - aiperf.cli_runner._multi_run - INFO -   Estimated duration: 1980s
+2026-09-13 00:28:26.266 - aiperf.orchestrator.orchestrator - INFO - Starting multi-run benchmark (repeated): 1 trials x 6 variations
+2026-09-13 00:28:26.267 - aiperf.orchestrator.orchestrator - INFO - [v0 t0] Executing run_0001...
+2026-09-13 00:28:26.712 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:28:26.718 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Inferact/Qwen3.8-27B-NVFP4 detected
+2026-09-13 00:28:26.719 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:28:26.719 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Inferact/Qwen3.8-27B-NVFP4']
+2026-09-13 00:33:59.792 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      9.41                634.02                105.42          54470.28        1  
+                                                                                                                                 
+
+2026-09-13 00:33:59.794 - aiperf.orchestrator.orchestrator - INFO - [v1 t0] Executing run_0001...
+2026-09-13 00:34:00.314 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:34:00.320 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Inferact/Qwen3.8-27B-NVFP4 detected
+2026-09-13 00:34:00.320 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:34:00.321 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Inferact/Qwen3.8-27B-NVFP4']
+2026-09-13 00:39:36.444 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      9.41                634.02                105.42          54470.28        1  
+                             2                     15.51               1123.41                106.07          55102.45        1  
+                                                                                                                                 
+
+2026-09-13 00:39:36.445 - aiperf.orchestrator.orchestrator - INFO - [v2 t0] Executing run_0001...
+2026-09-13 00:39:36.943 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:39:36.949 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Inferact/Qwen3.8-27B-NVFP4 detected
+2026-09-13 00:39:36.949 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:39:36.949 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Inferact/Qwen3.8-27B-NVFP4']
+2026-09-13 00:45:12.907 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      9.41                634.02                105.42          54470.28        1  
+                             2                     15.51               1123.41                106.07          55102.45        1  
+                             4                     31.03               2052.49                110.72          57794.37        1  
+                                                                                                                                 
+
+2026-09-13 00:45:12.908 - aiperf.orchestrator.orchestrator - INFO - [v3 t0] Executing run_0001...
+2026-09-13 00:45:13.392 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:45:13.399 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Inferact/Qwen3.8-27B-NVFP4 detected
+2026-09-13 00:45:13.400 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:45:13.400 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Inferact/Qwen3.8-27B-NVFP4']
+2026-09-13 00:50:31.741 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      9.41                634.02                105.42          54470.28        1  
+                             2                     15.51               1123.41                106.07          55102.45        1  
+                             4                     31.03               2052.49                110.72          57794.37        1  
+                             8                     65.94               4089.35                119.39          63839.56        1  
+                                                                                                                                 
+
+2026-09-13 00:50:31.743 - aiperf.orchestrator.orchestrator - INFO - [v4 t0] Executing run_0001...
+2026-09-13 00:50:32.207 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:50:32.212 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Inferact/Qwen3.8-27B-NVFP4 detected
+2026-09-13 00:50:32.212 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:50:32.213 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Inferact/Qwen3.8-27B-NVFP4']
+2026-09-13 00:56:08.193 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      9.41                634.02                105.42          54470.28        1  
+                             2                     15.51               1123.41                106.07          55102.45        1  
+                             4                     31.03               2052.49                110.72          57794.37        1  
+                             8                     65.94               4089.35                119.39          63839.56        1  
+                            16                     99.30               8312.44                139.54          77845.61        1  
+                                                                                                                                 
+
+2026-09-13 00:56:08.195 - aiperf.orchestrator.orchestrator - INFO - [v5 t0] Executing run_0001...
+2026-09-13 00:56:08.681 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 00:56:08.687 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer Inferact/Qwen3.8-27B-NVFP4 detected
+2026-09-13 00:56:08.687 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 00:56:08.687 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['Inferact/Qwen3.8-27B-NVFP4']
+2026-09-13 01:01:44.672 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                      9.41                634.02                105.42          54470.28        1  
+                             2                     15.51               1123.41                106.07          55102.45        1  
+                             4                     31.03               2052.49                110.72          57794.37        1  
+                             8                     65.94               4089.35                119.39          63839.56        1  
+                            16                     99.30               8312.44                139.54          77845.61        1  
+                            32                    148.94              17148.33                182.28         107565.26        1  
+                                                                                                                                 
+
+2026-09-13 01:01:44.674 - aiperf.orchestrator.orchestrator - INFO - Repeated mode complete: 6/6 runs successful
+2026-09-13 01:01:44.674 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 01:01:44.675 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 01:01:44.675 - aiperf.cli_runner._multi_run - INFO - Computing aggregate statistics...
+2026-09-13 01:01:44.698 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:01:44.710 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.711 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json
+2026-09-13 01:01:44.712 - AggregateSweepJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 01:01:44.713 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=1) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.713 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:01:44.714 - AggregateSweepCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 01:01:44.715 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate JSON written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 01:01:44.715 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate CSV written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 01:01:44.721 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json
+2026-09-13 01:01:44.722 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.722 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=2) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.723 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:01:44.729 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.730 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json
+2026-09-13 01:01:44.730 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=4) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.731 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:01:44.737 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.738 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json
+2026-09-13 01:01:44.738 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=8) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.739 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:01:44.746 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.747 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json
+2026-09-13 01:01:44.747 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=16) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.748 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:01:44.755 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json
+2026-09-13 01:01:44.755 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
+2026-09-13 01:01:44.756 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=32) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_002824_Inferact_Qwen3.8-27B-NVFP4_c1,2,4,8,16,32/aggregate/concurrency_32/profile_export_aiperf_aggregate.csv
