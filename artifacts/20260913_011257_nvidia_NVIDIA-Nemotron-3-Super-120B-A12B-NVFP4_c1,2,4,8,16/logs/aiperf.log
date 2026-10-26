@@ -1,0 +1,108 @@
+2026-09-13 01:12:59.309 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 01:12:59.310 - aiperf.cli_runner._multi_run - INFO - Starting Multi-Run Benchmark
+2026-09-13 01:12:59.311 - aiperf.cli_runner._multi_run - INFO -   Configurations: 5
+2026-09-13 01:12:59.311 - aiperf.cli_runner._multi_run - INFO -   Trials per config: 1
+2026-09-13 01:12:59.311 - aiperf.cli_runner._multi_run - INFO -   Total runs: 5
+2026-09-13 01:12:59.311 - aiperf.cli_runner._multi_run - INFO -   Confidence level: 95%
+2026-09-13 01:12:59.311 - aiperf.cli_runner._multi_run - INFO -   Cooldown between runs: 0.0s
+2026-09-13 01:12:59.311 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 01:12:59.312 - aiperf.cli_runner._multi_run - INFO -   Estimated duration: 1650s
+2026-09-13 01:12:59.313 - aiperf.orchestrator.orchestrator - INFO - Starting multi-run benchmark (repeated): 1 trials x 5 variations
+2026-09-13 01:12:59.313 - aiperf.orchestrator.orchestrator - INFO - [v0 t0] Executing run_0001...
+2026-09-13 01:12:59.775 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 01:12:59.783 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 detected
+2026-09-13 01:12:59.783 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 01:12:59.783 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:18:40.010 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     13.96               1051.20                 63.88          33536.12        1  
+                                                                                                                                 
+
+2026-09-13 01:18:40.011 - aiperf.orchestrator.orchestrator - INFO - [v1 t0] Executing run_0001...
+2026-09-13 01:18:40.457 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 01:18:40.463 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 detected
+2026-09-13 01:18:40.463 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 01:18:40.463 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:24:00.114 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     13.96               1051.20                 63.88          33536.12        1  
+                             2                     26.18               1556.72                 74.99          39412.40        1  
+                                                                                                                                 
+
+2026-09-13 01:24:00.116 - aiperf.orchestrator.orchestrator - INFO - [v2 t0] Executing run_0001...
+2026-09-13 01:24:00.564 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 01:24:00.569 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 detected
+2026-09-13 01:24:00.569 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 01:24:00.570 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:29:13.982 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     13.96               1051.20                 63.88          33536.12        1  
+                             2                     26.18               1556.72                 74.99          39412.40        1  
+                             4                     40.05               2150.76                 98.36          51251.68        1  
+                                                                                                                                 
+
+2026-09-13 01:29:13.984 - aiperf.orchestrator.orchestrator - INFO - [v3 t0] Executing run_0001...
+2026-09-13 01:29:14.446 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 01:29:14.451 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 detected
+2026-09-13 01:29:14.451 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 01:29:14.451 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:34:51.098 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     13.96               1051.20                 63.88          33536.12        1  
+                             2                     26.18               1556.72                 74.99          39412.40        1  
+                             4                     40.05               2150.76                 98.36          51251.68        1  
+                             8                     49.65               3915.44                138.35          72563.90        1  
+                                                                                                                                 
+
+2026-09-13 01:34:51.100 - aiperf.orchestrator.orchestrator - INFO - [v4 t0] Executing run_0001...
+2026-09-13 01:34:51.573 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-09-13 01:34:51.578 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 detected
+2026-09-13 01:34:51.578 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-09-13 01:34:51.579 - aiperf.config.resolution.resolvers - INFO - HF cache hit (skipping prefetch): ['nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4']
+2026-09-13 01:40:07.200 - aiperf.cli_runner._multi_run - INFO - 
+                                                                                                                                 
+  phases.profiling.concurrency   output_token_throughput   time_to_first_token   inter_token_latency   request_latency   trials  
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+                             1                     13.96               1051.20                 63.88          33536.12        1  
+                             2                     26.18               1556.72                 74.99          39412.40        1  
+                             4                     40.05               2150.76                 98.36          51251.68        1  
+                             8                     49.65               3915.44                138.35          72563.90        1  
+                            16                     79.55               7587.57                198.97         106438.79        1  
+                                                                                                                                 
+
+2026-09-13 01:40:07.202 - aiperf.orchestrator.orchestrator - INFO - Repeated mode complete: 5/5 runs successful
+2026-09-13 01:40:07.203 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 01:40:07.203 - aiperf.cli_runner._multi_run - INFO - ================================================================================
+2026-09-13 01:40:07.203 - aiperf.cli_runner._multi_run - INFO - Computing aggregate statistics...
+2026-09-13 01:40:07.206 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:40:07.217 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_1/profile_export_aiperf_aggregate.json
+2026-09-13 01:40:07.218 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.218 - AggregateSweepJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 01:40:07.218 - AggregateSweepCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 01:40:07.219 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=1) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_1/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_1/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.219 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:40:07.220 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate JSON written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/sweep_aggregate/profile_export_aiperf_sweep.json
+2026-09-13 01:40:07.220 - aiperf.cli_runner._multi_run - INFO - Sweep aggregate CSV written to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/sweep_aggregate/profile_export_aiperf_sweep.csv
+2026-09-13 01:40:07.226 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_2/profile_export_aiperf_aggregate.json
+2026-09-13 01:40:07.226 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.227 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=2) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_2/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_2/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.227 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:40:07.234 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_4/profile_export_aiperf_aggregate.json
+2026-09-13 01:40:07.235 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.235 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=4) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_4/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_4/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.236 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:40:07.242 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.242 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_8/profile_export_aiperf_aggregate.json
+2026-09-13 01:40:07.243 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=8) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_8/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_8/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.243 - aiperf.orchestrator.aggregation.confidence - WARNING - ConfidenceAggregation: only 1 successful run (num_successful=1 / total=1); reporting point estimates with std=0 and CI collapsed to the mean. Set num_profile_runs >= 2 for meaningful confidence intervals.
+2026-09-13 01:40:07.250 - AggregateConfidenceJsonExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_16/profile_export_aiperf_aggregate.json
+2026-09-13 01:40:07.250 - AggregateConfidenceCsvExporter - INFO - Exported aggregate data to: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv
+2026-09-13 01:40:07.251 - aiperf.cli_runner._multi_run - INFO - Per-variation aggregate (phases.profiling.concurrency=16) JSON: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_16/profile_export_aiperf_aggregate.json; CSV: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/aggregate/concurrency_16/profile_export_aiperf_aggregate.csv

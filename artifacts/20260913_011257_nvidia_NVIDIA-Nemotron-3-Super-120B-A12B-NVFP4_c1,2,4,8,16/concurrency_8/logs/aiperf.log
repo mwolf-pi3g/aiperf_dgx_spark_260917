@@ -1,0 +1,89 @@
+2026-09-13 01:29:14.600 - system_controller - INFO - Registered Worker Manager (id: 'worker_manager')
+2026-09-13 01:29:14.611 - server_metrics_manager - INFO - Server Metrics: Discovered 1 endpoints: ['http://localhost:8000/metrics']
+2026-09-13 01:29:14.631 - GPUTelemetryJSONLWriter_7c60f79c - INFO - GPU telemetry export enabled: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/gpu_telemetry_export.jsonl
+2026-09-13 01:29:14.635 - OTelMetricsResultsProcessor_a6a04ba2 - INFO - Telemetry streaming is disabled (set --otel-url and/or --mlflow-tracking-uri to enable)
+2026-09-13 01:29:14.635 - RecordExportJSONLWriter_38d83d7c - INFO - Record metrics export enabled: /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/profile_export.jsonl
+2026-09-13 01:29:14.654 - system_controller - INFO - Registered Records Manager (id: 'records_manager')
+2026-09-13 01:29:14.656 - system_controller - INFO - Registered Record Processor (id: 'record_processor_30e752ac')
+2026-09-13 01:29:14.713 - system_controller - INFO - Registered Dataset Manager (id: 'dataset_manager')
+2026-09-13 01:29:14.722 - system_controller - INFO - Registered Gpu Telemetry Manager (id: 'gpu_telemetry_manager')
+2026-09-13 01:29:14.728 - system_controller - INFO - Registered Server Metrics Manager (id: 'server_metrics_manager')
+2026-09-13 01:29:14.753 - system_controller - INFO - Registered Record Processor (id: 'record_processor_fa9b1df2')
+2026-09-13 01:29:14.799 - system_controller - INFO - Registered Timing Manager (id: 'timing_manager')
+2026-09-13 01:29:14.847 - system_controller - INFO - Registered Worker (id: 'worker_252e0cff')
+2026-09-13 01:29:14.848 - system_controller - INFO - Registered Worker (id: 'worker_bbfc0dad')
+2026-09-13 01:29:14.862 - system_controller - INFO - Registered Worker (id: 'worker_7e4fc655')
+2026-09-13 01:29:14.871 - system_controller - INFO - Registered Worker (id: 'worker_5093eb8c')
+2026-09-13 01:29:14.873 - system_controller - INFO - Registered Worker (id: 'worker_e655c179')
+2026-09-13 01:29:14.875 - system_controller - INFO - Registered Worker (id: 'worker_d329d016')
+2026-09-13 01:29:14.882 - system_controller - INFO - Registered Worker (id: 'worker_368916b8')
+2026-09-13 01:29:14.894 - system_controller - INFO - Registered Worker (id: 'worker_442d1991')
+2026-09-13 01:29:15.092 - system_controller - INFO - AIPerf System is CONFIGURING
+2026-09-13 01:29:15.093 - system_controller - INFO - Configuring all services to start profiling
+2026-09-13 01:29:15.095 - timing_manager - INFO - Waiting for dataset to be configured before configuring timing
+2026-09-13 01:29:15.095 - InferenceResultParser_7c6d86af - INFO - Tokenization is disabled for this endpoint, skipping tokenizer configuration
+2026-09-13 01:29:15.094 - InferenceResultParser_7e293a07 - INFO - Tokenization is disabled for this endpoint, skipping tokenizer configuration
+2026-09-13 01:29:15.095 - dataset_manager - INFO - Configuring tokenizer(s) for dataset manager
+2026-09-13 01:29:15.104 - server_metrics_manager - INFO - Server Metrics: Capturing baseline metrics...
+2026-09-13 01:29:15.111 - gpu_telemetry_manager - INFO - GPU Telemetry: Capturing baseline metrics from pynvml://localhost
+2026-09-13 01:29:15.119 - http://localhost:8000/metrics - INFO - Skipping unsupported summary metric: http_request_size_bytes
+2026-09-13 01:29:15.119 - http://localhost:8000/metrics - INFO - Skipping unsupported summary metric: http_response_size_bytes
+2026-09-13 01:29:15.121 - system_controller - INFO - Server metrics enabled - 1/1 endpoint(s) reachable.
+2026-09-13 01:29:15.121 - system_controller - INFO - Waiting for result domains: profile, server_metrics, telemetry
+2026-09-13 01:29:15.122 - pynvml_collector - INFO - PyNVML initialized with 1 GPU(s) (0 with GPM support)
+2026-09-13 01:29:15.137 - system_controller - INFO - DCGM telemetry enabled - 1/1 endpoint(s) reachable
+2026-09-13 01:29:15.873 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-13 01:29:15.902 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/ff433f5493e25d631c9f12b5d55c674229923d02/config.json?%2Fnvidia%2FNVIDIA-Nemotron-3-Super-120B-A12B-NVFP4%2Fresolve%2Fmain%2Fconfig.json=&etag=%2225fdfa00f468ad953fc5516aeab78a128332da1a%22 "HTTP/1.1 200 OK"
+2026-09-13 01:29:16.399 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-13 01:29:16.430 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/ff433f5493e25d631c9f12b5d55c674229923d02/tokenizer_config.json?%2Fnvidia%2FNVIDIA-Nemotron-3-Super-120B-A12B-NVFP4%2Fresolve%2Fmain%2Ftokenizer_config.json=&etag=%22c96e5ad00986bfa0b666d4bc425666f1c51d6d1b%22 "HTTP/1.1 200 OK"
+2026-09-13 01:29:16.568 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-13 01:29:16.710 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-13 01:29:17.614 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4 "HTTP/1.1 200 OK"
+2026-09-13 01:29:17.773 - dataset_manager - INFO - Tokenizer(s) configured in 2.68 seconds
+2026-09-13 01:29:17.773 - dataset_manager - INFO - Configuring dataset for dataset_manager
+2026-09-13 01:29:18.042 - MemoryMapDatasetBackingStore_66a80a0d - INFO - Memory-mapped backing store initialized (streaming to /tmp/aiperf_mmap_e2a2fce451a54fbab5e84f7679a813f7/dataset.dat)
+2026-09-13 01:29:18.053 - MemoryMapDatasetBackingStore_66a80a0d - INFO - Data file finalized: 100 conversations, 0.49 MB
+2026-09-13 01:29:18.054 - MemoryMapDatasetBackingStore_66a80a0d - INFO - Index file created: /tmp/aiperf_mmap_e2a2fce451a54fbab5e84f7679a813f7/index.dat
+2026-09-13 01:29:18.054 - dataset_manager - INFO - Backing store finalized: client_type=DatasetClientStoreType.MEMORY_MAP format=MemoryMapFormat.CONVERSATION data_file_path=PosixPath('/tmp/aiperf_mmap_e2a2fce451a54fbab5e84f7679a813f7/dataset.dat') index_file_path=PosixPath('/tmp/aiperf_mmap_e2a2fce451a54fbab5e84f7679a813f7/index.dat') conversation_count=100 total_size_bytes=518162 compressed=False compressed_data_file_path=None compressed_index_file_path=None compressed_size_bytes=0
+2026-09-13 01:29:18.056 - dataset_manager - INFO - sampling strategy: sequential, unique conversations: 100, unique turn count: 100
+2026-09-13 01:29:18.056 - dataset_manager - INFO - Generating inputs.json file at /home/mw/aiperf-benchmarking/llm_perf/artifacts/20260913_011257_nvidia_NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4_c1,2,4,8,16/concurrency_8/inputs.json
+2026-09-13 01:29:18.059 - PhaseOrchestrator_949c3332 - INFO - Initialized 1 phase(s): ['Profiling']
+2026-09-13 01:29:18.061 - dataset_manager - INFO - inputs.json file generated in 0.00 seconds
+2026-09-13 01:29:18.123 - dataset_manager - INFO - Dataset client initialized and freed 100 conversations from memory
+2026-09-13 01:29:18.123 - dataset_manager - INFO - Dataset configured in 0.35 seconds
+2026-09-13 01:29:18.126 - system_controller - INFO - All services configured in 3.03 seconds
+2026-09-13 01:29:18.127 - system_controller - INFO - AIPerf System is CONFIGURED
+2026-09-13 01:29:18.129 - server_metrics_manager - INFO - Server Metrics: Started 1 collector(s) successfully
+2026-09-13 01:29:18.130 - RateTiming - INFO - Creating interval generator: pattern=concurrency_burst, rate=None, smoothness=None
+2026-09-13 01:29:18.130 - system_controller - INFO - All services started profiling successfully
+2026-09-13 01:29:18.130 - system_controller - INFO - AIPerf System is PROFILING
+2026-09-13 01:29:18.130 - PhaseRunner - NOTICE - Phase profiling (profiling) started | phase_index=0 | profiling_index=0 | target: 300.0s duration
+2026-09-13 01:29:18.131 - PhaseRunner - INFO - Waiting for event 'profiling phase sending' with timeout of 299.999544415s
+2026-09-13 01:29:18.132 - records_manager - INFO - Credit phase start: profiling
+2026-09-13 01:34:18.130 - PhaseRunner - INFO - Timeout of 299.999544415s elapsed for event 'profiling phase sending'
+2026-09-13 01:34:18.131 - PhaseRunner - NOTICE - Phase profiling (profiling) sending complete | sent=40, completed=32, in_flight=8 | sessions: sent=40, completed=32 | timeout_triggered=True
+2026-09-13 01:34:18.132 - PhaseRunner - INFO - Waiting for event 'profiling phase credits returned' with timeout of 29.998434449s
+2026-09-13 01:34:18.135 - records_manager - INFO - Sent 40 requests. Waiting for all to complete...
+2026-09-13 01:34:48.132 - PhaseRunner - INFO - Timeout of 29.998434449s elapsed for event 'profiling phase credits returned'
+2026-09-13 01:34:48.133 - PhaseRunner - WARNING - Phase profiling timed out, cancelling all credits. Stats: sent=40, completed=32, cancelled=0, in_flight=8
+2026-09-13 01:34:48.133 - StickyCreditRouter_146dcd7f - INFO - Sent cancellation requests for 8 in-flight credits across 8 workers
+2026-09-13 01:34:48.134 - PhaseRunner - INFO - Waiting for all cancelled credits to be returned for phase profiling. Need 8 more credits.
+2026-09-13 01:34:48.135 - PhaseRunner - INFO - All cancelled credits returned for phase profiling
+2026-09-13 01:34:48.136 - PhaseRunner - NOTICE - Phase profiling (profiling) complete | completed=32, cancelled=8, errors=0 | sessions: completed=32, cancelled=8 | elapsed=330.01s | grace_period_timeout=True
+2026-09-13 01:34:48.137 - PhaseOrchestrator_949c3332 - NOTICE - All credits completed
+2026-09-13 01:34:48.138 - system_controller - INFO - Received credits complete from 'timing_manager'
+2026-09-13 01:34:48.138 - records_manager - INFO - Received CREDIT_PHASE_COMPLETE message, Phase complete: PhaseRecordsStats(phase=CreditPhase.PROFILING, phase_index=0, profiling_index=0, phase_name='profiling', phase_kind='profiling', start_ns=1789255758130798625, sent_end_ns=1789256058131676941, requests_end_ns=1789256088136636475, baseline_start_ns=1789255758130790337, baseline_end_ns=1789256088136655163, total_expected_requests=None, expected_duration_sec=None, expected_num_sessions=None, expected_grace_period_sec=None, final_requests_sent=None, final_requests_completed=32, final_requests_cancelled=8, final_request_errors=0, final_sent_sessions=None, final_completed_sessions=None, final_cancelled_sessions=None, timeout_triggered=True, grace_period_timeout_triggered=True, was_cancelled=False, records_end_ns=None, success_records=32, error_records=0)
+2026-09-13 01:34:48.140 - records_manager - NOTICE - All requests have completed, please wait for the results to be processed (currently 32 of 32 records processed)...
+2026-09-13 01:34:48.141 - records_manager - INFO - Processed 32 valid requests and 0 errors (32 total).
+2026-09-13 01:34:48.141 - records_manager - INFO - Received all records, processing now...
+2026-09-13 01:34:48.141 - records_manager - INFO - All credits complete, please wait for the results to be processed...
+2026-09-13 01:34:48.142 - gpu_telemetry_manager - INFO - GPU Telemetry: Profiling complete, capturing final metrics...
+2026-09-13 01:34:48.142 - server_metrics_manager - INFO - Server Metrics: Profiling complete, capturing final metrics...
+2026-09-13 01:34:48.143 - records_manager - INFO - Waiting 2.0s for server metrics flush period...
+2026-09-13 01:34:50.137 - records_manager - INFO - Processing records results...
+2026-09-13 01:34:50.164 - system_controller - INFO - Waiting for result domains: server_metrics, telemetry
+2026-09-13 01:34:50.164 - system_controller - INFO - Waiting for result domains: server_metrics
+2026-09-13 01:34:50.387 - records_manager - INFO - _finalize_and_process_results completed
+2026-09-13 01:34:50.398 - system_controller - INFO - All results received, initiating shutdown
+2026-09-13 01:34:51.002 - ExporterManager - INFO - Exporting all records
+2026-09-13 01:34:51.044 - ExporterManager - INFO - Exporting console data
